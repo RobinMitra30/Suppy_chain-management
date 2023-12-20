@@ -22,3 +22,7 @@ So, now we can find the insurance premium quickly by just passing the mentioned 
 
 ## Screenshots
 ![deployment](https://github.com/RobinMitra30/Suppy_chain-management/assets/115272817/b388d856-9e26-459a-b969-b00ebf07ffc9)
+
+## Technologies and Tools are used
+![tools for ml](https://github.com/RobinMitra30/Suppy_chain-management/assets/115272817/07d57cdf-8503-4997-a98d-fc4fc01ad707)
+
