@@ -19,3 +19,6 @@ Deployed the Gradient Boosting regressor model using Flask, which works in the b
 
 
 So, now we can find the insurance premium quickly by just passing the mentioned details as input to the web application 
+
+## Screenshots
+![deployment](https://github.com/RobinMitra30/Suppy_chain-management/assets/115272817/b388d856-9e26-459a-b969-b00ebf07ffc9)
