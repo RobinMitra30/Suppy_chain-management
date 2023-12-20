@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supply Managment</title>
+    <link rel="stylesheet" href = "D:\only projects\Machine learning projects\New folder\templates\style.css">
+</head>
+<body>
+    <h1>Supple management</h1>
+    <form action="/predict" method="post">
+        <label for="Location_type">Location_type:</label>
+        <select name="Location_type" required>
+        <option value="Urban">Urban</option>
+        <option value="Rural">Rural</option>
+        </select><br>
+
+        <label for="WH_capacity_size">Capacity_size:</label>
+        <select name="WH_capacity_size" required>
+        <option value="Small">Small</option>
+        <option value="Mid">Mid</option>
+        <option value="Large">Large</option>
+        </select><br>
+
+        <label for="zone">Zone:</label>
+        <select name="zone" required>
+        <option value="East">East</option>
+        <option value="West">West</option>
+        <option value="North">North</option>
+        <option value="South">South</option>
+        </select><br>
+
+        <label for="WH_regional_zone">Regional Zone:</label>
+        <select name="WH_regional_zone" required>
+            <option value="Zone 1">Zone 1</option>
+            <option value="Zone 2">Zone 2</option>
+            <option value="Zone 3">Zone 3</option>
+            <option value="Zone 4">Zone 4</option>
+            <option value="Zone 5">Zone 5</option>
+            <option value="Zone 6">Zone 6</option>
+        </select><br>
+
+        <label for="wh_owner_type">Choose Warehouse owerner Type:</label>
+        <select name="wh_owner_type" required>
+        <option value="0">Company Owned</option>
+        <option value="1">Rented</option>
+        </select><br>
+
+        <label for="num_refill_req_l3m">Number of Times refill:</label>
+        <select name="num_refill_req_l3m" required>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select><br>
+        
+        <label for="transport_issue_l1y">Type Of Transport Issue:</label>
+        <select name="transport_issue_l1y" required>
+            <option value="0">No issue</option>
+            <option value="1">Accident</option>
+            <option value="2">Goods Stolen</option>
+        </select><br>
+
+        <label for="Competitor_in_mkt">Competion in market:</label>
+        <select name="Competitor_in_mkt" required>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+        </select><br>
+
+        <label for="electric_supply">Is there any electric-supply:</label>
+        <select name="electric_supply" required>
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+        </select><br>
+
+        <label for="dist_from_hub">Enter Distance From The Hub To Warehouse:</label>
+        <input type="text" name="dist_from_hub" required><br>
+
+        <label for="workers_num">Number Of Wrokers:</label>
+        <input type="text" name="workers_num" required><br>
+        
+        <label for="storage_issue_reported_l3m">Number Of Times Issue Reported:</label>
+        <input type="text" name="storage_issue_reported_l3m" required><br>
+        
+        <label for="temp_reg_mach">Is there any Tempreature Regulator in the Warehouse:</label>
+        <select name="temp_reg_mach" required>
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+        </select><br>
+
+        <label for="approved_wh_govt_certificate">What Type Of Rating:</label>
+        <select name="approved_wh_govt_certificate" required>
+            <option value="1">A+</option>
+            <option value="2">A</option>
+            <option value="3">B+</option>
+            <option value="4">B</option>
+            <option value="5">C</option>
+            
+        </select><br>
+        
+        <label for="wh_breakdown_l3m">Number Of Time Warehouse Breakdown:</label>
+        <select name="wh_breakdown_l3m" required>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            
+        </select><br>
+        
+        <label for="govt_check_l3m">Number Of time Officer Visited To the Warehouse:</label>
+        <input type="text" name="govt_check_l3m" required><br>
+        
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
